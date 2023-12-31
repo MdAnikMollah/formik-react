@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+.formbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    
+}
+#firstName{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+}
+#lastName{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+}
+#email{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+}
+#password{
+    padding: 5px 30px;
+    margin-bottom: 30px;
+}
+#btn{
+    padding: 10px 20px;
+    margin-top: 7px;
+}
+.error{
+    font-size: 20px;
+    color: red;
+}
